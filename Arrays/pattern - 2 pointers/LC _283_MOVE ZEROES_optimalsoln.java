@@ -8,6 +8,11 @@ class Solution {
                 break;
             }
         }
+
+        if( j == -1){
+            return;
+        }
+
         for(int i = j+1;i<n;i++){
             if(arr[i]!= 0){
                 int temp = arr[i];
@@ -20,6 +25,6 @@ class Solution {
     }
 }
 
-
 //question link - https://leetcode.com/problems/move-zeroes/
 //video link - https://www.youtube.com/watch?v=wvcQg43_V8U&t=1633s
+
